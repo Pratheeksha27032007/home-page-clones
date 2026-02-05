@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <header>
+
+    <div class="navbar">
+      <div class="nav-logo border">
+            <div class="logo">
+            </div>
+      </div>
+
+      <div class="nav-addr border">
+            <i id="qw" class="fa-solid fa-location-dot"></i>
+            <div class="add-text">
+                <p class="add1">Deliver to</p>
+                <p class="add2">India</p>
+            </div>
+      </div>
+      
+      <div class="nav-search">
+            <select class="search-opt">
+                <option>All</option>
+            </select>
+            <input  placeholder="Search Amazon" class="search-txt">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+      </div>
+      
+      <div class="nav-tools">
+         <div class="nav-sign-in border">
+          <div>
+           <p> <span>
+            Hello, sign in
+           </span></p>
+            <p class="nav-sec">  Account & Lists </p>
+            </div>
+         </div>
+
+         <div class="nav-return border">
+           <p> <span>
+            Returns
+           </span></p>
+            <p class="nav-sec">& Orders </p>
+         </div>
+
+         <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+         </div>
+      </div>
+    </div>
+
+    <div class="panel">
+        <div class="pan-menu border">
+            <i class="fa-solid fa-bars"></i>
+            <span id="qp">All</span>
+        </div>
+
+        <div class="pan-contents">
+            <p class="pan-con border">Today's Deals</p>
+            <p class="pan-con border">Prime Video</p>
+            <p class="pan-con border">Registry</p>
+            <p class="pan-con border">Gift Cards</p>
+            <p class="pan-con border">Customer Service</p>
+            <p class="pan-con border">Sell</p>
+        </div>
+    </div>
+  </header> 
+
+  <main>
+    
+     <div class="hero-bg">
+     </div>
+
+     <div class="hero-components">
+
+        <div class="hero-txt">
+            <P>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a id="mn" href="https://www.amazon.in/?ref=aisgw_intl_stripe_in"> Click here to go to amazon.in</a></P>
+        </div>
+     
+        <div class="hero-shop-items">
+
+           <div class="box 1">
+               <div class="box11">
+                    <div class="box11-text"><h2>Get your game on</h2></div> 
+                    <div class="inbox1">
+                        <div class="inbox11"></div>
+                        <a href="#" class="shop-link" >Shop gaming</a>
+                    </div>
+               </div>
+            </div>
+            <div class="box 2">
+                <div class="box1">
+                    <div class="box11-text"> <h2>Shop for your home essentials</h2></div>
+                    <div class="inbox2">
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic2.jpg);">
+                            </div>
+                             <p class="inbox-text">Cleaning Tools</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic3.jpg);">    
+                            </div>
+                            <p class="inbox-text">Home Storage</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic4.jpg);">
+                            </div>
+                            <p class="inbox-text">Home Decor</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic5.jpg);">                               
+                            </div>
+                            <p class="inbox-text">Bedding</p>
+                        </div>
+                         <a href="#"  class="shop-link">Discover more in Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box 3">
+               <div class="box1">
+                    <div class="box11-text"><h2>New home arrivals under $50</h2></div>
+                    <div class="inbox2">
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic6.jpg);">
+                            </div>
+                             <p class="inbox-text">Kitchen & Dining</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic7.jpg);">    
+                            </div>
+                            <p class="inbox-text">Home Improvement</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic8.jpg);">
+                            </div>
+                            <p class="inbox-text">Décor</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic9.jpg);">                               
+                            </div>
+                            <p class="inbox-text">Bedding & Bath</p>
+                        </div>
+                         <a href="#"  class="shop-link">Shop the latest from Home</a>
+                    </div>
+               </div>
+            </div>
+            <div class="box 4">
+                <div class="box1">
+                    <div class="box11-text"><h2>Shop Fashion for less</h2></div>
+                    <div class="inbox2">
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic10.jpg);">
+                            </div>
+                             <p class="inbox-text">Jeans under $50</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(pic11.jpg);">    
+                            </div>
+                            <p class="inbox-text">Tops under $25</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(p12.jpg);">
+                            </div>
+                            <p class="inbox-text">Dresses under $30</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(p13.jpg);">                               
+                            </div>
+                            <p class="inbox-text">Shoes under $50</p>
+                        </div>
+                         <a href="#"  class="shop-link">See all deals</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box 5">
+                <div class="box1">
+                    <div class="box11-text"><h2>Toys for all ages</h2></div>
+                    <div class="inbox2">
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b1.jpg);">
+                            </div>
+                             <p class="inbox-text">Ride on's</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b2.jpg);">    
+                            </div>
+                            <p class="inbox-text">Building & construction</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b3.jpg);">
+                            </div>
+                            <p class="inbox-text">Dolls & Doll Houses</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b4.jpg);">                               
+                            </div>
+                            <p class="inbox-text">Swimming pools</p>
+                        </div>
+                         <a href="#"  class="shop-link">See all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box 6">
+                <div class="box1">
+                    <div class="box11-text"><h2>Have more fun with family</h2></div>
+                    <div class="inbox2">
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b5.jpg);">
+                            </div>
+                             <p class="inbox-text">Outdoor Play Sets</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b6.jpg);">    
+                            </div>
+                            <p class="inbox-text">Learning Toys</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b7.jpg);">
+                            </div>
+                            <p class="inbox-text">Action Figures</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b8.jpg);">                               
+                            </div>
+                            <p class="inbox-text">Pretend Play Toys</p>
+                        </div>
+                         <a href="#"  class="shop-link">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box 7">
+                <div class="box1">
+                    <div class="box11-text"><h2>Score the top PCs & Accessories</h2></div>
+                    <div class="inbox2">
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b9.jpg);">
+                            </div>
+                             <p class="inbox-text">Desktops</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b10.jpg);">    
+                            </div>
+                            <p class="inbox-text">Laptops</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b11.jpg);">
+                            </div>
+                            <p class="inbox-text">Hard Drives</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b12.jpg);">                               
+                            </div>
+                            <p class="inbox-text">PC Accessories</p>
+                        </div>
+                         <a href="#"  class="shop-link">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box 8">
+                <div class="box1">
+                    <div class="box11-text"><h2>Gaming merchandise</h2></div>
+                    <div class="inbox2">
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b13.jpg);">
+                            </div>
+                             <p class="inbox-text">Apparel</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b14.jpg);">    
+                            </div>
+                            <p class="inbox-text">Hat</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b15.jpg);">
+                            </div>
+                            <p class="inbox-text">Action figures</p>
+                        </div>
+                        <div class="inbox21">
+                            <div class="inbox-image" style="background-image:url(b16.jpg);">                               
+                            </div>
+                            <p class="inbox-text">Mugs</p>
+                        </div>
+                         <a href="#"  class="shop-link">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     </div>
+
+  </main>
+
+ <div class="footer">
+        <div class="footer1">
+            Back to top
+        </div>
+        <div class="footer2">
+                <div class="footer21 1">
+                    <div class="footer2-headers">Get to Know Us</div>
+                    <ul class="footer2-list">
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>About Amazon </li>
+                        <li>Investor Relations</li>
+                        <li>Amazon Devices </li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+                <div class="footer2-gap"></div>
+                <div class="footer21 2">
+                    <div class="footer2-headers">Make Money with Us</div>
+                    <ul class="footer2-list">
+                        <li>Sell products on Amazon </li>
+                        <li>Sell on Amazon Business</li>
+                        <li>Sell apps on Amazon </li>
+                        <li>Become an Affiliate </li>
+                        <li>Advertise Your Products </li>
+                        <li>Self-Publish with Us </li>
+                        <li>Host an Amazon Hub</li>
+                        <li>> See More Make Money with Us </li>
+                    </ul>
+                </div>
+                <div class="footer2-gap"></div>
+                <div class="footer21 3">
+                    <div class="footer2-headers">Amazon Payment Products</div>
+                    <ul class="footer2-list">
+                        <li>Amazon Business Card </li>
+                        <li>Shop with Points </li>
+                        <li>Reload Your Balance </li>
+                        <li>Amazon Currency Converter</li>
+                    </ul>
+                </div>
+                <div class="footer2-gap"></div>
+                <div class="footer21 4">
+                    <div class="footer2-headers">Let Us Help You</div>
+                    <ul class="footer2-list">
+                        <li>Amazon and COVID-19 </li>
+                        <li>Your Account </li>
+                        <li>Your Orders </li>
+                        <li>Shipping Rates & Policies </li>
+                        <li>Returns & Replacements </li>
+                        <li>Manage Your Content and Devices </li>
+                        <li>Help </li>
+                    </ul>
+                </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer3">
+                <div class="footer3-logo">
+
+                </div>
+                <div class="footer3-tools">
+                <div class="footer31">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    English
+                </div>
+                <div class="footer31">
+                    ₹ INR - Indian Rupee
+                </div>
+                <div class="footer31">
+                    
+                    United States
+                </div>
+                </div>
+        </div>
+        <div class="footer4">
+               <div class="footer41">
+                   <ul>
+                    <div class="footer41-row 1">
+                     <li>
+                        <h5>Amazon Music</h5>
+                        <span>Stream millions of songs</span>
+                    </li>  
+                    <li>
+                        <h5> Amazon Business</h5>
+                        <span>Everything For Your Business</span>
+                    </li>
+                    <li>
+                        <h5>IMDbPro</h5>
+                        <span>Get Info Entertainment Professionals Need</span>
+                    </li>    
+                    <li></li>             
+                    </div>
+                    <div class="footer41-gap 1">
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                    </div>
+                    <div class="footer41-row 2">
+                     <li>
+                        <h5>Amazon Ads</h5>
+                        <span>Reach customers wherever they spend their time</span>
+                    </li> 
+                    <li>
+                        <h5>AmazonGlobal</h5>
+                        <span>Ship Orders Internationally</span>
+                    </li>
+                    <li>
+                        <h5>Kindle Direct Publishing</h5>
+                        <span>Indie Digital & Print Publishing Made Easy</span>
+                    </li>
+                    <li>
+                        <h5>eero WiFi</h5>
+                        <span>Stream 4K Video in Every Room</span>
+                    </li>
+                    </div>
+                    <div class="footer41-gap 2">
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                    </div>
+                     <div class="footer41-row 3">
+                    <li>
+                        <h5>6pm</h5>
+                        <span>Score deals on fashion brands</span>
+                    </li>
+                    <li>
+                        <h5>Amazon Web Services</h5>
+                        <span>Scalable Cloud Computing Services</span>
+                    </li>
+                    <li>
+                        <h5>Prime Video Direct</h5>
+                        <span>Video Distribution Made Easy</span>
+                    </li>
+                     <li>
+                        <h5>Blink</h5>
+                        <span>Smart Security for Every Home</span>
+                    </li>
+                    </div>
+                    <div class="footer41-gap 3">
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                    </div>
+                     <div class="footer41-row 4">
+                    <li>
+                        <h5>AbeBooks</h5>
+                        <span>Books, art & collectibles</span>
+                    </li>
+                     <li>
+                        <h5>Audible</h5>
+                        <span>Listen to Books & Original Audio Performances</span>
+                    </li>
+                     <li>
+                        <h5>Shopbop</h5>
+                        <span>Designer Fashion Brands</span>
+                    </li>
+                     <li>
+                        <h5>Neighbors App</h5>
+                        <span>Real-Time Crime & Safety Alerts</span>
+                    </li>
+                    </div>
+                    <div class="footer41-gap 4">
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                    </div>
+                     <div class="footer41-row 5">
+                      <li>
+                        <h5>ACX</h5>
+                        <span>Audiobook Publishing Made Easy</span>
+                    </li>
+                    <li>
+                        <h5>Box Office Mojo </h5>
+                        <span>Find Movie Box Office Data</span>
+                    </li>                 
+                    <li>
+                        <h5>Woot!</h5>
+                        <span>Deals and Shenanigans</span>
+                    </li>
+                     <li>
+                        <h5>Amazon Subscription Boxes</h5>
+                        <span>Top subscription boxes - right to your door</span>
+                    </li>
+                    </div>
+                    <div class="footer41-gap 5">
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                    </div>
+                     <div class="footer41-row 6">
+                    <li>
+                        <h5>Sell on Amazon</h5>
+                        <span>Start a Selling Account</span>
+                    </li>
+                    <li>
+                        <h5>Goodreads</h5>
+                        <span>Book reviews &recommendations</span>
+                    </li>
+                    <li>
+                        <h5>Zappos</h5>
+                        <span>Shoes & Clothing</span>
+                    </li>
+                    <li>
+                        <h5>PillPack</h5>
+                        <span>Pharmacy Simplified</span>
+                    </li>
+                    </div>
+                   <div class="footer41-gap 6">
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                        <li class="footer4-gap"></li>
+                    </div>
+                    <div class="footer41-row 7">
+                    <li>
+                        <h5>Veeqo</h5>
+                        <span>Shipping Software Inventory Management</span>
+                    </li>
+                     <li>
+                        <h5>IMDb</h5>
+                        <span>Movies, TV & Celebrities</span>
+                    </li>
+                     <li>
+                        <h5>Ring</h5>
+                        <span>Smart Home Security Systems</span>
+                    </li>
+                    <li></li>
+                    </div>
+                   </ul>
+               </div>
+        </div>
+        <div class="footer5">
+            <div class="footer51">
+                <ul>
+                    <li>Conditions of Use</li>
+                    <li>Privacy Notice</li>
+                    <li>Consumer Health Data Privacy Disclosure</li>
+                    <li>Your Ads Privacy Choices</li>
+                </ul>
+                <span>
+                   <i class="fa-regular fa-copyright"></i>
+                    1996-2026, Amazon.com, Inc. or its affiliates
+                </span>
+                <span>
+                    Made with <i class="fa-regular fa-heart"></i> Amazon Clone
+                </span>
+            </div>
+        </div>
+        
+  </div>
+  
+</body>
+</html>
