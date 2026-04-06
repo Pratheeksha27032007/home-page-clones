@@ -1,5 +1,5 @@
 # home-page-clones
-A collection of homepage UI clones built using HTML and CSS for frontend practice.
+A homepage UI clone built using HTML and CSS for frontend practice.
 
 ## Project Status
 - Desktop-only layout
@@ -8,5 +8,6 @@ A collection of homepage UI clones built using HTML and CSS for frontend practic
 
 ## What I learned
 - Flexbox layouts
+- Grid layouts
 - Complex footer structure
 - Real-world UI cloning
