@@ -22,13 +22,13 @@ a{
 }
 .nav-logo{
     height: 55px;
-    width: 130px;
+    width: 140px;
     padding: 1px 8px 0px 6px;
 
 }
 .logo{
     height: 100%;
-    width: auto;
+    width: 100%;
     background-image: url("amazon_logo.png");
     background-size: cover;
 }
@@ -215,7 +215,7 @@ main{
 .hero-txt{
     background-color: #f5f6f6;
     height: 40px;
-    width: 96%;
+    width: 99%;
     text-align: center;
     display: flex;
     align-items: center; 
@@ -234,23 +234,15 @@ main{
     height:auto;
     /* background-color: palevioletred; */
     width: 100%;
-    display: flex;
-    
-    flex-wrap: wrap;
-    justify-content: center;
+   display:grid;
+   grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
     padding:20px 0px;
 }
 /* 1 card box */
 .box{
     height: auto;
-    width:23%;
     padding:0px 10px 20px 10px;
     /* margin-top:5px ;   */
-}
-@media(max-width:1200px){
-    .box{
-        width:30%;
-    }
 }
 .box11{
     background-color: white;
